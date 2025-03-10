@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  font-family: serif, Avenir, Helvetica, Arial, sans-serif;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #1a202c;
+  /*margin-left: 60px;
+  margin-right: 60px;*/
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.portadaCN{
+  position: relative;
+  width: 100%;
+  background-image: url('../src/assets/PortadaCN.png');
+  background-size: cover;
+  background-position: center;
+}
