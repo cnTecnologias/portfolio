@@ -5,6 +5,9 @@ import {Nav} from './nav.jsx'
 import Header from './header.jsx'
 import Carousel from './carousel.jsx'
 import TecnologiasDiapositiva from './tecnologias.jsx'
+import Proyectos from './proyectos.jsx'
+import Contacto from './contacto.jsx'
+import Footer from './footer.jsx'
 
 const root=createRoot(document.getElementById('root'))
 //diapositivas que va a usar el componente Carousel
@@ -40,5 +43,8 @@ root.render(
  <Nav/>
  <Header/>
 <Carousel slides={slides}/>
+<Proyectos/>
+<Contacto/>
+<Footer></Footer>
 </React.Fragment>
 )

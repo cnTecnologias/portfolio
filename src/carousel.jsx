@@ -13,7 +13,7 @@ const Carousel = ({ slides }) => {
       };
 
       return (
-        <div className="relative h-screen">
+        <div className="relative h-screen border-t-1 border-b-2 border-gray-800">
           <div className="overflow-hidden h-full">
             <div
               className="flex transition-transform duration-500 h-full"
