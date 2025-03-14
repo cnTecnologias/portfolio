@@ -31,7 +31,7 @@ const slides = [
       <p className=' font-sans w-full md:text-2xl text-base md:mb-10 mb-20 text-center'>Ya que contamos con un equipo de profesionales altamente capacitados, con experiencia en el desarrollo de software y la implementación de tecnologías de vanguardia.
       </p>
       <figure className='inline-block text-center '>
-      <img className=' object-cover md:h-1/2 h-1/4 md:w-50 w-1/2 m-auto rounded-full' src="/portfolio/public/trabajoEquipo.jpeg" alt="trabajo en equipo" />
+      <img className=' object-cover md:h-1/2 h-1/4 md:w-50 w-1/2 m-auto rounded-full' src="../src/assets/trabajoEquipo.jpeg" alt="trabajo en equipo" />
       <figcaption className=' md:text-sm text-xs text-gray-500'>Nuestro equipo trabajando</figcaption>
       </figure>   
    </div>
