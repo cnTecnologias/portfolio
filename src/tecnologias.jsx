@@ -1,10 +1,10 @@
 import './index.css';
 const TecnologiasDiapositiva = () => {
     const tecnologias = [
-      { nombre: 'React', icono: '../src/assets/react_logo.svg' },
-      { nombre: 'Python', icono: '../src/assets/python_logo.svg' },
-      { nombre: 'Kotlin', icono: '../src/assets/kotlin_logo.svg' },
-      { nombre: 'Swift', icono: '../src/assets/swift_logo.svg' },
+      { nombre: 'React', icono: '/portfolio/src/assets/react_logo.svg' },
+      { nombre: 'Python', icono: '/portfolio/src/assets/python_logo.svg' },
+      { nombre: 'Kotlin', icono: '/portfolio/src/assets/kotlin_logo.svg' },
+      { nombre: 'Swift', icono: '/portfolio/src/assets/swift_logo.svg' },
     ];
   
     return (
