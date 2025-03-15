@@ -1,10 +1,10 @@
 import './index.css';
 const TecnologiasDiapositiva = () => {
     const tecnologias = [
-      { nombre: 'React', icono: '/react_logo.svg' },
-      { nombre: 'Python', icono: '/python_logo.svg' },
-      { nombre: 'Kotlin', icono: '/kotlin_logo.svg' },
-      { nombre: 'Swift', icono: '/swift_logo.svg' },
+      { nombre: 'React', icono: 'react_logo.svg' },
+      { nombre: 'Python', icono: 'python_logo.svg' },
+      { nombre: 'Kotlin', icono: 'kotlin_logo.svg' },
+      { nombre: 'Swift', icono: 'swift_logo.svg' },
     ];
   
     return (
