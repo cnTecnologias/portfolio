@@ -1,17 +1,22 @@
 import './index.css';
 const TecnologiasDiapositiva = () => {
     const tecnologias = [
+      { nombre: 'Html', icono: 'html_logo.svg' },
+      { nombre: 'CSS', icono: 'css_logo.svg' },
       { nombre: 'React', icono: 'react_logo.svg' },
       { nombre: 'Python', icono: 'python_logo.svg' },
       { nombre: 'Kotlin', icono: 'kotlin_logo.svg' },
       { nombre: 'Swift', icono: 'swift_logo.svg' },
+      { nombre: 'Java', icono: 'java_logo.svg' },
+      { nombre: 'JavaScript', icono: 'javascript_logo.svg' },
+      { nombre: 'PHP', icono: 'php_logo.svg' },
     ];
   
     return (
       <div className="flex-col justify-items-center text-center h-full w-full">
-        <h2 className="md:text-3xl font-bold mb-4 p-10 underline decoration-sky-700 md:h-11 h-64">QUE HACEMOS</h2>
+        <h2 className="md:text-3xl font-bold p-10 underline decoration-sky-700 md:h-11 h-64">QUE HACEMOS</h2>
         <div className='flex-col md:justify-center md:gap-4 md:p-20 p-5 h-full'>
-            <p className="mb-6 md:text-2xl text-base md:h-1/4 h-1/3 font-sans">
+            <p className="md:mb-4 md:text-2xl text-base md:h-1/4 h-1/3 font-sans">
             Desarrollamos soluciones de software innovadoras utilizando las últimas tecnologías.
             </p>
             <div className="flex justify-center flex-wrap md:h-1/2 h-1/3">

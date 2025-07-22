@@ -32,7 +32,6 @@ const slides = [
       </p>
       <figure className='inline-block text-center '>
       <img className=' object-cover md:h-1/2 h-1/4 md:w-50 w-1/2 m-auto rounded-full' src="trabajoEquipo.jpeg" alt="trabajo en equipo" />
-      <figcaption className=' md:text-sm text-xs text-gray-500'>Nuestro equipo trabajando</figcaption>
       </figure>   
    </div>
 
